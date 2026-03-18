@@ -1,0 +1,41 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-header {
+   display: flex;
+   background: linear-gradient(to right,#093541 0%, #EFEA9F 25% 75%,#093541 100%);
+   position: relative;
+   text-align: center;
+   justify-content: center;
+}
+
+img {
+  max-width: 50%;
+}
+
+.sub-header {
+  background-color: #093541;
+  color: #EFEA9F;
+}
+nav {
+  display: none;
+  z-index: 1;
+}
+nav li {
+  display: block;
+  padding: 20px 30px;
+}
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
