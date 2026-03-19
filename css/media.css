@@ -2,7 +2,16 @@
     img {
         max-width: 30%;
     }
-    .sub-header__small {
+    
+    .top-icons {
         display: none;
     }
+
+  .hamburger-icon {
+    display: none;
+  }
+  .sub-header {
+    justify-content: center;
+  }
+
 }

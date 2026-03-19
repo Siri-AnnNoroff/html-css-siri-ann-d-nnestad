@@ -19,7 +19,7 @@ img {
   max-width: 150px;
 }
 
-.sub-header__small {
+.sub-header {
   background-color: #093541;
   color: #EFEA9F;
   display: flex;
@@ -45,8 +45,6 @@ nav {
     left: 8px;
     padding: 0px 20px 20px 10px;
     font-size: 1em;
-  
-    
 }
 
 nav ul {
@@ -73,3 +71,4 @@ a {
  padding: 25px 0px 0px 0px;
   float: inline-end;
 }
+
