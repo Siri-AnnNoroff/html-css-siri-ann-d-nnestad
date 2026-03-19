@@ -9,7 +9,6 @@ body {
 }
 
 .top-header {
-   display: flex;
    background: linear-gradient(to right,#093541 0%, #EFEA9F 25% 75%,#093541 100%);
    position: relative;
    text-align: center;
@@ -17,25 +16,60 @@ body {
 }
 
 img {
-  max-width: 50%;
+  max-width: 150px;
 }
 
-.sub-header {
+.sub-header__small {
   background-color: #093541;
   color: #EFEA9F;
-}
-nav {
-  display: none;
-  z-index: 1;
-}
-nav li {
-  display: block;
-  padding: 20px 30px;
-}
-#hamburger-menu {
-  display: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 0.7em;
+
 }
 
-#hamburger-menu:checked ~ nav {
-  display: block;
+nav, 
+#menu-checkbox {
+    display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+}
+nav {
+
+    position: fixed;
+    background:#093541;
+    top: 12em;
+    left: 8px;
+    padding: 0px 20px 20px 10px;
+    font-size: 1em;
+  
+    
+}
+
+nav ul {
+  padding: 0px;
+}
+
+nav li{
+    display: block;
+    color: #EFEA9F;
+      padding: 5px;
+}
+ 
+a {
+  color: #EFEA9F;
+  text-decoration: none;
+}
+.bolder {
+  text-decoration: underline;
+  font-weight: bold;
+  margin-left: 3px;
+}
+
+.menu-icons {
+ padding: 25px 0px 0px 0px;
+  float: inline-end;
 }
