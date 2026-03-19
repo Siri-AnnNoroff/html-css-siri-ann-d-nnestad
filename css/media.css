@@ -18,6 +18,14 @@
   .footer-small {
     display: none;
   }
+.footer-large {
+    display: flex;  
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  border: solid 1px;
+  background-color: #fffcfc;
+  color:#093541;
  
-
 }
+} 

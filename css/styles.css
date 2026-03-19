@@ -57,8 +57,8 @@ ul {
     padding: 5px;
 }
  
-.hamburger-nav a, ul {
-  color: #EFEA9F;
+.hamburger-nav a {
+  color: #EFEA9f;
   text-decoration: none;
 }
 .bolder {
@@ -83,8 +83,7 @@ ul {
   width: 100%;
   bottom: 0;
   background-color: #093541;
-  color: #EFEA9F;
- 
+ color: #EFEA9F;
 }
 
 .footer-small__icons {
@@ -98,3 +97,6 @@ ul {
   list-style: none;
 }
 
+.footer-large {
+  display: none;
+}
