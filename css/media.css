@@ -3,15 +3,21 @@
         max-width: 30%;
     }
     
-    .top-icons {
+    .costumer-icons {
         display: none;
     }
 
   .hamburger-icon {
     display: none;
   }
-  .sub-header {
+  .second-header {
     justify-content: center;
+    font-size: 1.5em;
   }
+  
+  .footer-small {
+    display: none;
+  }
+ 
 
 }
