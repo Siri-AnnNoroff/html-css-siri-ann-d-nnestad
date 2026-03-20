@@ -57,4 +57,13 @@
     color: #093541;
 }
 
+.mood {
+    display: none;
+}
+.welcome {
+    height: 500px;
+}
+.cta-main {
+    margin-left: 300px;
+}
 } 

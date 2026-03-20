@@ -1,3 +1,20 @@
+@import "imports/variables.css";
+
+@font-face {
+  font-family: "Jaldi-regular";
+  src: url("/fonts/Jaldi-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Notable-regular";
+  src: url("/fonts/Notable-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OrelegaOne-regular";
+  src: url("/fonts/OrelegaOne-Regular.ttf") format("truetype");
+}
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
