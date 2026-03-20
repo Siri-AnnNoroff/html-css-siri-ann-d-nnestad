@@ -1,4 +1,4 @@
-.welcome {
+.welcome-small {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -7,6 +7,7 @@
     height: 20em;
 
 }
+
 .cta-main {
     margin-left: 20px;
     position: absolute;
@@ -18,12 +19,12 @@
     
   
 }
-.welcome a {
+.welcome-small a {
     color: #093541;
-    text-decoration: none;
+   
 }
 
-.mood {
+.mood-small {
     display: flex;
     flex-direction: column;
     background: url(../images/forested-mountain.jpg) ;
@@ -48,6 +49,17 @@ h2 {
            font-size: 1.5em;
 }
 .moved-text {
-    margin-left: 4em;
+    margin-left: 6em;
     
+}
+.mood-large {
+    display: none;
+}
+.carousel {
+    text-align: center;
+    color: #093541;
+    background-color: #F5F5F5;
+}
+.welcome-large {
+    display: none;
 }
