@@ -19,7 +19,8 @@
     display: none;
   }
 .footer-large {
-    display: flex;  
+ display: flex; 
+ justify-content: space-between;
   position: fixed;
   width: 100%;
   bottom: 0;
@@ -27,5 +28,28 @@
   background-color: #fffcfc;
   color:#093541;
  
+}
+.footer-large ul {
+
+    display: flex;
+
+}
+
+.footer-large li {
+    margin-left: 30px;
+    font-size: 1.5em;
+    list-style: none;
+}
+
+.footer-large__icons {
+    margin-right: 40px;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+
+
+}
+.footer-large__icons a {
+    color: #093541;
 }
 } 
