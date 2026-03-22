@@ -24,6 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #F5F5F5;
+  font-family: "Jaldi-regular";
 }
 
 .main-header {
@@ -33,22 +34,22 @@ body {
    justify-content: center;
 }
 
-img {
+.logo {
   max-width: 150px;
 }
 
 .second-header {
-  background-color: #093541;
+  background-color: var(--main-color);
   color: #EFEA9F;
   display: flex;
   justify-content: space-between;
   padding: 15px;
-  font-size: 0.8em;
+  font-size: 0.8rem;
 
 }
 a {
     text-decoration: none;
-    color: #093541;
+    color: var(--main-color);
 }
 
 .hamburger-nav, 
@@ -62,11 +63,12 @@ a {
 .hamburger-nav {
 
     position: fixed;
-    background:#093541;
-    top: 10em;
+    background: var(--main-color);
+    top: 8rem;
     left: 8px;
     padding: 0px 20px 20px 10px;
-    font-size: 1em;
+    font-size: 1rem;
+    z-index: 1;
 }
 
 ul {
@@ -104,19 +106,23 @@ ul {
   position: fixed;
   width: 100%;
   bottom: 0;
-  background-color: #093541;
+  background-color: var(--main-color);
  color: #EFEA9F;
+
 }
 
 .footer-small__icons {
  display: flex;
  justify-content: space-evenly;
  list-style: none;
+ font-size: 18px;
+
 }
 .footer-small__text {
   display: flex;
   justify-content: space-evenly;
   list-style: none;
+  font-size: 16px;
 }
 
 .footer-large {
@@ -128,3 +134,24 @@ ul {
 main {
   padding-bottom: 100px;
 }
+.add-to-cart {
+  background-color: var(--main-color);
+  color: #EFEA9F;
+  font-size: 1.3rem;
+  padding: 7px;
+
+
+
+  
+}
+button {
+  font-size: 0.8rem;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+ button:focus {
+  background-color: var(--main-color);
+  color: #EFEA9F;
+ }
+ 

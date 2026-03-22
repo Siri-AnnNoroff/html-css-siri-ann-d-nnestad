@@ -1,6 +1,6 @@
 @media (min-width: 800px) {
-    img {
-        max-width: 30%;
+    .logo {
+        max-width: 15%;
     }
     
     .costumer-icons {
@@ -12,7 +12,7 @@
   }
   .second-header {
     justify-content: center;
-    font-size: 1.5em;
+    font-size: 1rem;
   }
   
   .footer-small {
@@ -21,11 +21,14 @@
 .footer-large, .nav-large {
  display: flex; 
  justify-content: space-between;
-
+ align-items: center;
   width: 100%;
   border: solid 1px;
   background-color: #fffcfc;
   color:#093541;
+  font-size: 1rem;
+  max-height: 40px;
+
 
 }
 
@@ -42,13 +45,12 @@
 
 .footer-large li, .nav-large li {
     margin-left: 30px;
-    font-size: 1.5em;
     list-style: none;
 }
 
 .footer-large__icons, .nav-large__icons {
     margin-right: 40px;
-    font-size: 1.5em;
+    font-size: 1rem;
     display: flex;
     align-items: center;
 
@@ -64,14 +66,15 @@
 .welcome-large {
     display: flex;
     flex-direction: column;
-    height: 450px;
+    height: 35\0rem;
     background: url(../images/home-header.jpg)  no-repeat center top;
-    box-shadow: inset 30em 0px 0px rgba(219, 220, 240, 0.5);
+    box-shadow: inset 30rem 0px 0px rgba(219, 220, 240, 0.5);
     background-size: 100%;
 }
 .cta-main {
-    margin-left: 30em;
-    margin-top: 15em;
+    margin-left: 25rem;
+    margin-top: 15rem;
+    font-size: 1rem;
 }
 .mood-small {
     display: none;
@@ -92,7 +95,7 @@ video {
 .video-text {
     color: #093541;
     box-shadow: inset 900px 900px 0px rgba(255,252, 252, 0.75);
-    font-size: 1em;
+    font-size: 0.9rem;
     border-radius: 30px;    
     position: absolute;
     bottom: 20px;
@@ -103,17 +106,23 @@ video {
  
 }
 h1, h2 {
-    font-size: 2em;
+    font-size: 2rem;
     text-shadow: none;
     line-height: 140%;
 }
 h2 {
     font-weight: lighter;
-    font-size: 1.5em;
     letter-spacing: 30%;
 }
 .welcome-small {
     display: none;
+}
+.carousel img {
+    margin-left: 25rem;
+}
+.jackets-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 } 

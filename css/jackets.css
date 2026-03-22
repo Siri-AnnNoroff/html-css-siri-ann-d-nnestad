@@ -1,0 +1,21 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+}
+.product-container {
+
+    border: solid 1px #093541;
+    margin: 10px;
+    text-align: center;
+    padding: 20px 5px 20px 10px;
+
+}
+
+.product-container img {
+    height: 150px;
+    max-width: 150px;
+}
+ h4, h5 {
+    text-align: left;
+ }
+ 
