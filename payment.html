@@ -73,46 +73,56 @@
       </nav>
     </header>
     <main>
-        <div>
+        <div class="cta-payment">
             <h3>Quick checkout:</h3>
-            <a href="success-page.html">Apple Pay</a>
-              <a href="success-page.html">G Pay</a>
-                <a href="success-page.html">PayPal</a>
+            <a href="success-page.html" class="apple">Pay with Apple Pay</a>
+              <a href="success-page.html" class="google">G Pay</a>
+                <a href="success-page.html" class="paypal">Buy with PayPal</a>
         </div>
-      <section>
-        <form>
+                     <section>
+        <form class="personal-info">
             <label for="name">First name</label>
+             <label for="name">Last name</label>
             <input type="text" name="first-name" />
-            <label for="name">Last name</label>
             <input type="text" name="last-name" />
             <label for="phone">Phone</label>
+             <label for="email">Email</label>
             <input type="tel" name="phone">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" />
+          <input type="email" id="email" name="email" />
+        </form>
         <h4>Address:</h4>
+        <form class="address">
             <label for="street-name">Street name</label>
+             <label for="number">House number</label>
            <input type="text" name="street-name" />
-           <label for="number">House number</label>
+          
             <input type="number" name="quantity">
             <label for="number">Postcode</label>
+                    <label for="city">City</label>
           <input type="number" name="quantity">
-           <label for="city">City</label>
+   
            <input type="text" name="city" />
         </form>
      </section>
-      <section>
+        </div>
+
+      <section class="card-details">
         <h4>Card details:</h4>
-        <form class="card-details">
+        <form class="card-info">
              <label for="name">Cardholder name</label>
-            <input type="text" name="cardholder-name" />
-            <label for="number">Card number</label>
+             <input type="text" name="cardholder-name" />
+               <label for="number">Card number</label>
+            
+          
             <input type="number" name="quantity">
             <label for="number">Expiry date</label>
+          
             <input type="number" name="quantity">
-            <label for="number">Security code</label>
+              <label for="number">Security code</label>
             <input type="number" name="quantity">
-        </form>
-        <a href="success-page.html">Complete purchase</a>
+       
+        <a href="success-page.html" class="add-to-cart">Complete purchase</a>
+         </form>
       </section>
       <section>
         <h4>Summary:</h4>

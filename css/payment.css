@@ -1,17 +1,76 @@
 
-section {
+main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    font-size: 12px;
+    column-gap: 20px;
 }
-.card-details {
-    border: solid 1px var(--main-color);
-}
-.summary {
-    border: solid 1px var(--main-color);
+.personal-info, .address {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
 
 }
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    border: solid 1px var(--main-color);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.summary {
+    border: solid, 1px var(--main-color);
+    padding: 10px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.apple, .google {
+    background-color: var(--main-color);
+    color: white;
+}
+.paypal {
+    background-color: #ffd140;
+    color: #003087;
+}
+
+.apple, .google, .paypal {
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    
+    
+}
+.google {
+    padding: 3px 60px 3px 60px;
+}
+.apple {
+    padding: 3px 20px 3px 20px;
+}
+
+.paypal {
+        padding: 3px 40px 3px 40px;
+}
+
+
 input {
-    max-width: 100px;
-    border-radius: 30px;
-    box-shadow: inset 1px 0px 3px 0px;
+    border-radius: 5px;
+    border: solid 1px;
+    box-shadow:  0px 0px 2px 0px inset;
+    width: 130px;
+}
+.cta-payment {
+    position: absolute;
+
+}
+
+.card-details, .personal-info {
+    margin-top: 100px;
+}
+.total {
+    font-weight: bold;
 }
