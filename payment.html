@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="View Jacket One"
+      content="Pay for your purchase with Rainy Days"
     />
-    <title>Rainy Days | Jacket one</title>
-    <link href="../css/styles.css" rel="stylesheet" />
-    <link href="../css/jacket-spesific.css" rel="stylesheet" />
-    <link href="../css/media.css" rel="stylesheet" />
+    <title>Rainy Days | Payment</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/payment.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/10e9cc59c4.js"
       crossorigin="anonymous"
@@ -72,30 +72,57 @@
           </ul>
       </nav>
     </header>
-    <main class="jacket-spesific__page">
-      <div>
-     <img src="../images/jacket-one.jpg">
-      </div>
-      <div> 
-     <h4>Jacket One</h4>
-            <h5>$120</h5>
-            <p>Very warm and nice jacket for snow <br>and alike. You will love this jacket.</p>
-            Size:
-            <button>S</button>
-            <button>M</button>
-            <button>L</button>
-            <button>XL</button><br>
-            Quantity:
-            <button class="quantity">-</button>
-            <button class="quantity">1</button>
-            <button class="quantity">+</button>
-      <div class="cta-jacket">
-               <a class="add-to-cart" href="products/jacket-spesific.html">Add to cart</a><br>
-     
-               <a class="go-to-cart" href="../cart.html">Go to cart</a>
-      </div>
-      </div>
-              </main>
+    <main>
+        <div>
+            <h3>Quick checkout:</h3>
+            <a href="success-page.html">Apple Pay</a>
+              <a href="success-page.html">G Pay</a>
+                <a href="success-page.html">PayPal</a>
+        </div>
+      <section>
+        <form>
+            <label for="name">First name</label>
+            <input type="text" name="first-name" />
+            <label for="name">Last name</label>
+            <input type="text" name="last-name" />
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+        <h4>Address:</h4>
+            <label for="street-name">Street name</label>
+           <input type="text" name="street-name" />
+           <label for="number">House number</label>
+            <input type="number" name="quantity">
+            <label for="number">Postcode</label>
+          <input type="number" name="quantity">
+           <label for="city">City</label>
+           <input type="text" name="city" />
+        </form>
+     </section>
+      <section>
+        <h4>Card details:</h4>
+        <form class="card-details">
+             <label for="name">Cardholder name</label>
+            <input type="text" name="cardholder-name" />
+            <label for="number">Card number</label>
+            <input type="number" name="quantity">
+            <label for="number">Expiry date</label>
+            <input type="number" name="quantity">
+            <label for="number">Security code</label>
+            <input type="number" name="quantity">
+        </form>
+        <a href="success-page.html">Complete purchase</a>
+      </section>
+      <section>
+        <h4>Summary:</h4>
+        <div class="summary">
+        <p>Jacket Three $120</p>
+        <p>Shipping: FREE</p>
+        <p class="total">Total: $120</p>
+        </div>
+      </section>
+    </main>
     <footer class="footer-small">
       <nav>
         <ul class="footer-small__icons">

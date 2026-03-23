@@ -134,16 +134,14 @@ ul {
 main {
   padding-bottom: 100px;
 }
-.add-to-cart {
+.add-to-cart, .go-to-cart {
   background-color: var(--main-color);
   color: #EFEA9F;
   font-size: 1.3rem;
   padding: 7px;
+   }
 
 
-
-  
-}
 button {
   font-size: 0.8rem;
   margin: 5px;

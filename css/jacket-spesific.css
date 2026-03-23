@@ -15,16 +15,10 @@
 .quantity {
     margin: -1px;
 }
-.add-to-cart {
-display: flex;
-flex-direction: column;
-  
-    justify-content: center;
-    margin: 20px;
-    max-width: 100px;
-    max-height: 50px;
-    top: 10rem;
-    
+.cta-jacket {
+    display: flex;
+    flex-direction: column;
+    max-width: 110px;
+    align-items: center;
+    justify-self: center;
 }
-
-

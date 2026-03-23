@@ -1,0 +1,17 @@
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card-details {
+    border: solid 1px var(--main-color);
+}
+.summary {
+    border: solid 1px var(--main-color);
+
+}
+input {
+    max-width: 100px;
+    border-radius: 30px;
+    box-shadow: inset 1px 0px 3px 0px;
+}
