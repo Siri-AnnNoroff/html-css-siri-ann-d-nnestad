@@ -34,6 +34,9 @@
 
 
 }
+.nav-large li:hover, .footer-large li:hover {
+    font-weight: bold;
+}
 
 .footer-large {
      bottom: 0;
