@@ -40,7 +40,7 @@ body {
 
 .second-header {
   background-color: var(--main-color);
-  color: #EFEA9F;
+  color: var(--secondary-color);
   display: flex;
   justify-content: space-between;
   padding: 15px;
@@ -77,29 +77,28 @@ ul {
 
 .hamburger-nav li{
     display: block;
-    color: #EFEA9F;
+    color: var(--secondary-color);
     padding: 5px;
 }
  
 .hamburger-nav a {
-  color: #EFEA9f;
+  color: var(--secondary-color);
   text-decoration: none;
 }
-.bolder {
+.sale-cta {
   text-decoration: underline;
-  font-weight: bold;
   margin-left: 3px;
-  color: #EFEA9F;
+  color: var(--secondary-color);
 }
 
 .costumer-icons a {
-  color: #EFEA9F;
+  color: var(--secondary-color);
 }
 
 .hamburger-nav__icons {
  padding: 25px 0px 0px 0px;
   float: inline-end;
-  color: #EFEA9F;
+  color: var(--secondary-color);
 }
 
 .footer-small {
@@ -107,7 +106,7 @@ ul {
   width: 100%;
   bottom: 0;
   background-color: var(--main-color);
- color: #EFEA9F;
+ color: var(--secondary-color);
 
 }
 
@@ -134,11 +133,14 @@ ul {
 main {
   padding-bottom: 100px;
 }
-.add-to-cart, .go-to-cart {
+.cta {
+  display: flex;
   background-color: var(--main-color);
-  color: #EFEA9F;
+  color: var(--secondary-color);
   font-size: 1.3rem;
-  padding: 7px;
+  padding: 5px;
+max-width: 160px;
+justify-content: center;
    }
 
 
@@ -150,6 +152,15 @@ button {
 
  button:focus {
   background-color: var(--main-color);
-  color: #EFEA9F;
+  color: var(--secondary-color);
  }
- 
+ .under-construction {
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+
+ }
+.fa-brush {
+  font-size: 5em;
+  color: var(--main-color);
+}

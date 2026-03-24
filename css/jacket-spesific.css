@@ -1,24 +1,16 @@
-.jacket-spesific__page {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    padding-left: 30px;
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
 
 }
-.jacket-spesific__page img {
-    max-width: 200px;
-    border: solid 1px var(--main-color);
-    padding: 10px;
-    margin: 10px;
+img {
+    max-width: 150px;
 }
-
 .quantity {
     margin: -1px;
 }
 .cta-jacket {
-    display: flex;
-    flex-direction: column;
-    max-width: 110px;
-    align-items: center;
-    justify-self: center;
+    margin-left: 12rem;
 }

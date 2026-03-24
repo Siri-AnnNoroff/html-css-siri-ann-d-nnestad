@@ -125,4 +125,80 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+/**success page**/
+
+.success-page {
+    display: block;
+   text-align: center;
+  margin-left: 24rem;
+  margin-right: 24rem;
+}
+
+/**payment details page**/
+
+.payment-details__page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 12px;
+    column-gap: 20px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    border: solid 1px var(--main-color);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.summary {
+    border: solid, 1px var(--main-color);
+    padding: 10px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+input {
+    border-radius: 5px;
+    border: solid 1px;
+    box-shadow:  0px 0px 2px 0px inset;
+    width: 130px;
+}
+.quick-checkout {
+  position: absolute;
+  top: 12rem;
+  margin-left: 30px;
+
+}
+.cta-payment {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+
+
+.card-details, .personal-info {
+    margin-top: 100px;
+}
+/**jacket spesific**/
+.jacket-spesific__page {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-left: 30px;
+
+}
+.jacket-spesific__page img {
+    max-width: 200px;
+    border: solid 1px var(--main-color);
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
 } 

@@ -1,34 +1,31 @@
-
 main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    font-size: 12px;
-    column-gap: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
-.personal-info, .address {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
-
+input {
+    display: block;
+    margin: 5px;
+}
+.required {
+    color: rgb(211, 39, 39);
+    font-weight: bold;
 }
 
-.card-info {
+
+.quick-checkout {
     display: flex;
     flex-direction: column;
-    max-width: 200px;
-    border: solid 1px var(--main-color);
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 30px;
-}
-.summary {
-    border: solid, 1px var(--main-color);
-    padding: 10px;
-    border-radius: 5px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+  
+    
 
+
+}
+.fa-brands {
+    font-size: 1.5rem;
+    margin-left: 5px;
+
+}
 .apple, .google {
     background-color: var(--main-color);
     color: white;
@@ -39,38 +36,19 @@ main {
 }
 
 .apple, .google, .paypal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 5px;
     border-radius: 5px;
-    padding: 5px;
-    
-    
-}
-.google {
-    padding: 3px 60px 3px 60px;
-}
-.apple {
-    padding: 3px 20px 3px 20px;
-}
-
-.paypal {
-        padding: 3px 40px 3px 40px;
-}
-
-
-input {
-    border-radius: 5px;
-    border: solid 1px;
-    box-shadow:  0px 0px 2px 0px inset;
-    width: 130px;
-}
-.cta-payment {
-    position: absolute;
+    padding: 5px 30px;
 
 }
-
-.card-details, .personal-info {
-    margin-top: 100px;
+.summary {
+    border: solid 1px var(--main-color);
+    padding: 40px;
+    text-align: left;
 }
-.total {
-    font-weight: bold;
+.small-input {
+    max-width: 20%;
 }

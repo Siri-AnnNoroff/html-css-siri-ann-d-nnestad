@@ -42,9 +42,7 @@
         </ul>
       </nav>
       <div>
-        View our all-weather jackets on<a href="jackets.html" class="bolder"
-          >sale</a
-        >
+      View our all-weather jackets on<a href="jackets.html" class="sale-cta"><strong>sale</strong></a>
       </div>
       <div class="costumer-icons">
         <a href="under-construction.html"
@@ -72,35 +70,39 @@
           </ul>
       </nav>
     </header>
-    <main>
-        <div class="cta-payment">
+    <main class="payment-details__page">
+        <div class="quick-checkout">
             <h3>Quick checkout:</h3>
-            <a href="success-page.html" class="apple">Pay with Apple Pay</a>
-              <a href="success-page.html" class="google">G Pay</a>
-                <a href="success-page.html" class="paypal">Buy with PayPal</a>
+            <div class="cta-payment">
+            <a href="success-page.html" class="apple">Pay with<i class="fa-brands fa-apple-pay"></i></a>
+              <a href="success-page.html" class="google"><i class="fa-brands fa-google-pay"></i></a>
+                <a href="success-page.html" class="paypal">Buy with <i class="fa-brands fa-paypal"></i> <strong>PayPal</strong></a>
+        </div>
         </div>
                      <section>
         <form class="personal-info">
-            <label for="name">First name</label>
-             <label for="name">Last name</label>
+            <label for="name">First name <span class="required">*</label>
+            
             <input type="text" name="first-name" />
+             <label for="name">Last name <span class="required">*</label>
             <input type="text" name="last-name" />
             <label for="phone">Phone</label>
-             <label for="email">Email</label>
+          
             <input type="tel" name="phone">
+               <label for="email">Email<span class="required">*</label>
           <input type="email" id="email" name="email" />
         </form>
         <h4>Address:</h4>
         <form class="address">
-            <label for="street-name">Street name</label>
-             <label for="number">House number</label>
-           <input type="text" name="street-name" />
+            <label for="street-name">Street name<span class="required">*</label>
           
-            <input type="number" name="quantity">
-            <label for="number">Postcode</label>
-                    <label for="city">City</label>
-          <input type="number" name="quantity">
-   
+           <input type="text" name="street-name" />
+             <label for="number" >House number<span class="required">*</label>
+            <input type="number" name="quantity" class="small-input">
+            <label for="number" >Postcode<span class="required">*</label>
+                
+          <input type="number" name="quantity" class="small-input">
+       <label for="city">City<span class="required">*</label>
            <input type="text" name="city" />
         </form>
      </section>
@@ -109,19 +111,19 @@
       <section class="card-details">
         <h4>Card details:</h4>
         <form class="card-info">
-             <label for="name">Cardholder name</label>
+             <label for="name">Cardholder name<span class="required">*</label>
              <input type="text" name="cardholder-name" />
-               <label for="number">Card number</label>
+               <label for="number">Card number<span class="required">*</label>
             
           
             <input type="number" name="quantity">
-            <label for="number">Expiry date</label>
+            <label for="number">Expiry date<span class="required">*</label>
           
             <input type="number" name="quantity">
-              <label for="number">Security code</label>
+              <label for="number">Security code<span class="required">*</label>
             <input type="number" name="quantity">
        
-        <a href="success-page.html" class="add-to-cart">Complete purchase</a>
+        <a href="success-page.html" class="cta">Complete purchase</a>
          </form>
       </section>
       <section>
@@ -129,7 +131,7 @@
         <div class="summary">
         <p>Jacket Three $120</p>
         <p>Shipping: FREE</p>
-        <p class="total">Total: $120</p>
+        <p><strong>Total: $120</strong></p>
         </div>
       </section>
     </main>
