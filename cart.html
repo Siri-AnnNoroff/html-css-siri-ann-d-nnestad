@@ -3,30 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="View the all-weather jackets in your cart"
-    />
+    <meta name="description" content="View Jacket One"/>
     <title>Rainy Days | Cart</title>
-    <link href="css/styles.css" rel="stylesheet" />
-    <link href="css/cart.css" rel="stylesheet" />
-    <link href="css/media.css" rel="stylesheet" />
-    <script
-      src="https://kit.fontawesome.com/10e9cc59c4.js"
-      crossorigin="anonymous"
-    ></script>
+    <link href="/css/styles.css" rel="stylesheet" />
+    <link href="/css/cart.css" rel="stylesheet" />
+    <link href="/css/media.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/10e9cc59c4.js"crossorigin="anonymous"></script>
   </head>
   <body>
     <header class="main-header">
-      <a href="index.html" class="logo"
-        ><img src="images/RainyDays_Logo.png" alt="Rainy Days logo"
-      /></a>
+      <a href="index.html" ><img src="../images/RainyDays_Logo.png" class="logo" alt="Rainy Days logo"/></a>
     </header>
     <header class="second-header">
       <input type="checkbox" id="menu-checkbox" />
-      <label for="menu-checkbox" class="hamburger-icon"
-        ><i class="fas fa-bars"></i
-      ></label>
+      <label for="menu-checkbox" class="hamburger-icon"><i class="fas fa-bars"></i></label>
       <nav class="hamburger-nav">
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -34,47 +24,64 @@
           <li><a href="under-construction.html">Contact us</a></li>
           <li><a href="under-construction.html">About us</a></li>
           <div class="hamburger-nav__icons">
-            <a href="https://www.instagram.com/"
-              ><i class="fa-brands fa-instagram" aria-label="Instagram"></i
-            ></a>
-            <a href="https://www.facebook.com/"
-              ><i class="fa-brands fa-facebook-f" aria-label="Facebook"></i
-            ></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" aria-label="Instagram"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f" aria-label="Facebook"></i></a>
           </div>
         </ul>
       </nav>
       <div>
-        View our all-weather jackets on<a href="jackets.html" class="sale-cta"><strong>sale</strong></a>
+      View our all-weather jackets on<a href="jackets.html" class="sale-cta"><strong>sale</strong></a>
       </div>
       <div class="costumer-icons">
-        <a href="under-construction.html"
-          ><i class="fa-regular fa-user" aria-label="log in"></i
-        ></a>
-        <a href="cart.html"
-          ><i class="fa-solid fa-cart-shopping" aria-label="cart"></i
-        ></a>
+        <a href="under-construction.html"><i class="fa-regular fa-user" aria-label="log in"></i></a>
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping" aria-label="cart"></i></a>
       </div>
     </header>
     <header class="nav-large">
 <div>  
       <nav>
           <ul>
-          <li><a href="jackets.html"></a>Womens</li>
-          <li><a href="jackets.html"></a>Mens</li>
-          <li><a href="jackets.html"></a>Sale</li>
+          <li><a href="jackets.html">Womens</a></li>
+          <li><a href="jackets.html">Mens</a></li>
+          <li><a href="jackets.html">Sale</a></li>
       </div>  
       <div class="nav-large__icons">
         <a href="under-construction.html"><i class="fa-regular fa-user" aria-label="log in"></i></a>
-          <a href="cart.html"><i class="fa-solid fa-cart-shopping" aria-label="cart"></i
-        ></a>
+          <a href="cart.html"><i class="fa-solid fa-cart-shopping" aria-label="cart"></i></a>
           
       </div>
           </ul>
       </nav>
     </header>
-    <main>
-     
-    </main>
+  <main class="cart-page">
+    <section>
+    <h3>Your items:</h3>
+    <div class="your-items">
+    <div><img src="images/jacket-three.jpg" class="cart-img"></div>
+   <div class="layout">
+    <p>Jacket Three</p>
+    <p>$120</p>
+    <p>Quantity:</p>
+   
+    <div class="buttons">
+    <button>1</button>
+    <button>+</button>
+    <i class="fa-regular fa-trash-can"></i>
+    </div>
+    </section>
+   
+    <section>
+      <h3>Your cart:</h3>
+      <div class="your-cart">
+        <p>Jacket Three $120</p>
+        <p>Shipping: FREE</p>
+        <p><strong>Total: $120</strong></p>
+        <a href="payment.html" class="cta">Go to payment</a>
+        </div>
+        
+    </section>
+     <a href="jackets.html" class="cta">Keep shopping</a>
+  </main>
     <footer class="footer-small">
       <nav>
         <ul class="footer-small__icons">
@@ -99,7 +106,7 @@
       </div>  
       <div class="footer-large__icons">
         <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f" aria-label="Facebook"></i></a>
-          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" aria-label="Instagram"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" aria-label="Instagram"></i></a>
           
       </div>
           </ul>

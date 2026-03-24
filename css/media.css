@@ -1,4 +1,7 @@
 @media (min-width: 800px) {
+    html {
+        font-size: 100%;
+    }
     .logo {
         max-width: 15%;
     }
@@ -66,7 +69,7 @@
 .welcome-large {
     display: flex;
     flex-direction: column;
-    height: 35\0rem;
+    height: 100rem;
     background: url(../images/home-header.jpg)  no-repeat center top;
     box-shadow: inset 30rem 0px 0px rgba(219, 220, 240, 0.5);
     background-size: 100%;

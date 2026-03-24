@@ -1,0 +1,25 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+img {
+    border: solid 1px;
+    max-width: 450px;
+}
+.your-items {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px;
+    border-radius: 5px;
+}
+.your-cart {
+    border: solid 1px;
+}
+.layout {
+    display: flex;
+    flex-direction: column;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
