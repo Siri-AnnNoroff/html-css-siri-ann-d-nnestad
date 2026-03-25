@@ -1,4 +1,5 @@
 @import "imports/variables.css";
+@import "imports/links.css";
 
 @font-face {
   font-family: "Jaldi-regular";
@@ -18,14 +19,14 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-    font-family: "Jaldi-regular";
+    font-family: var(--paragraph-font), Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
   display: flex;
   flex-direction: column;
   background-color: #F5F5F5;
-  font-family: "Jaldi-regular";
+  font-family: var(--paragraph-font), Verdana, Geneva, Tahoma, sans-serif;
   color: #093541;
 }
 
@@ -49,10 +50,7 @@ body {
   font-size: 0.8rem;
 
 }
-a {
-    text-decoration: none;
-    color: var(--main-color)
-}
+
 
 .hamburger-nav, 
 #menu-checkbox {
@@ -77,31 +75,30 @@ ul {
   padding: 0px;
 }
 
-.hamburger-nav li{
-    display: block;
-    color: var(--secondary-color);
-    padding: 5px;
-}
  
-.hamburger-nav a {
-  color: var(--secondary-color);
-  text-decoration: none;
-}
-.sale-cta {
-  text-decoration: underline;
-  margin-left: 3px;
-  color: var(--secondary-color);
-}
-
-.costumer-icons a {
-  color: var(--secondary-color);
-}
-
 .hamburger-nav__icons {
  padding: 25px 0px 0px 0px;
   float: inline-end;
   color: var(--secondary-color);
 }
+
+
+
+.hamburger-nav li{
+    display: block;
+    color: var(--secondary-color);
+    padding: 5px;
+}
+
+.footer-small__icons, .footer-small__text {
+ display: flex;
+ justify-content: space-evenly;
+ list-style: none;
+ font-size: 18px;
+ color: var(--secondary-color);
+}
+ 
+
 
 .footer-small {
   position: fixed;
@@ -112,50 +109,16 @@ ul {
 
 }
 
-.footer-small__icons {
- display: flex;
- justify-content: space-evenly;
- list-style: none;
- font-size: 18px;
 
-}
-.footer-small__text {
-  display: flex;
-  justify-content: space-evenly;
-  list-style: none;
-  font-size: 16px;
-  color: var(--secondary-color);
-}
 
-.footer-large {
+.footer-large, .nav-large {
   display: none;
 }
-.nav-large {
-  display: none;
-}
+
 main {
   padding-bottom: 100px;
 }
-.cta {
-  display: flex;
-  background-color: var(--main-color);
-  color: var(--secondary-color);
-  font-size: 1.3rem;
-  padding: 5px;
-max-width: 160px;
-justify-content: center;
 
-   }
-   .cta-large {
-     display: flex;
-  background-color: var(--main-color);
-  color: var(--secondary-color);
-  font-size: 1.3rem;
-  padding: 5px;
-max-width: 190px;
-justify-content: center;
-margin-top: 40px;
-   }
 
 
 button {
