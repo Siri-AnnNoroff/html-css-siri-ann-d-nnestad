@@ -205,6 +205,36 @@ input {
     margin: 10px;
 }
 
+/**cart page**/
+.cart-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 250px;
+}
+.cart-img {
+    border: solid 1px;
+    max-width: 150px;
+    margin: 20px;
+}
+.your-items {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.your-cart {
+  
+    text-align: left;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 20px;
+   
 
+}
+.button {
+    margin: -4;
+}
 
 } 
