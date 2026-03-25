@@ -48,68 +48,61 @@ body {
   justify-content: space-between;
   padding: 15px;
   font-size: 0.8rem;
-
 }
 
-
-.hamburger-nav, 
-#menu-checkbox {
+.hamburger-nav, #menu-checkbox {
     display: none;
 }
 
 #menu-checkbox:checked ~ .hamburger-nav {
     display: block;
 }
-.hamburger-nav {
 
-    position: fixed;
-    background: var(--main-color);
-    top: 8rem;
-    left: 8px;
-    padding: 0px 20px 20px 10px;
-    font-size: 1rem;
-    z-index: 1;
+.hamburger-nav {
+  position: fixed;
+  background: var(--main-color);
+  top: 8rem;
+  left: 8px;
+  padding: 0px 20px 20px 10px;
+  font-size: 1rem;
+  z-index: 1;
 }
 
 ul {
   padding: 0px;
 }
 
- 
 .hamburger-nav__icons {
- padding: 25px 0px 0px 0px;
+  padding: 25px 0px 0px 0px;
   float: inline-end;
   color: var(--secondary-color);
 }
 
-
-
 .hamburger-nav li{
-    display: block;
-    color: var(--secondary-color);
-    padding: 5px;
+  display: block;
+  color: var(--secondary-color);
+  padding: 5px;
 }
 
 .footer-small__icons, .footer-small__text {
- display: flex;
- justify-content: space-evenly;
- list-style: none;
- font-size: 18px;
- color: var(--secondary-color);
+   display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  font-size: 18px;
+  color: var(--secondary-color);
 }
- 
-
 
 .footer-small {
   position: fixed;
   width: 100%;
   bottom: 0;
   background-color: var(--main-color);
- color: var(--secondary-color);
-
+  color: var(--secondary-color);
 }
 
-
+.footer-small a {
+  color: var(--secondary-color);
+}
 
 .footer-large, .nav-large {
   display: none;
@@ -119,25 +112,24 @@ main {
   padding-bottom: 100px;
 }
 
-
-
 button {
   font-size: 0.8rem;
- margin: -1px;
+  margin: -1px;
   margin-bottom: 20px;
   color: var(--main-color);
 }
 
- button:focus {
+button:focus {
   background-color: var(--main-color);
   color: var(--secondary-color);
- }
- .under-construction {
+}
+
+.under-construction {
   display: flex;
   flex-direction: column;
- align-items: center;
-
+  align-items: center;
  }
+ 
 .fa-brush {
   font-size: 5em;
   color: var(--main-color);

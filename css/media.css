@@ -1,34 +1,34 @@
 @media (min-width: 800px) {
     
-    .logo {
-        max-width: 15%;
-    }
+.logo {
+     max-width: 15%;
+}
     
-    .costumer-icons {
-        display: none;
-    }
+.costumer-icons {
+     display: none;
+}
 
-  .hamburger-icon, .footer-small {
+.hamburger-icon, .footer-small {
     display: none;
-  }
+}
+
   .second-header {
     justify-content: center;
     font-size: 1rem;
-  }
+}
   
 .footer-large, .nav-large {
- display: flex; 
- justify-content: space-between;
- align-items: center;
-  width: 100%;
-  border: solid 1px;
-  background-color: var(--background-color);
-  color: var(--main-color);
-  font-size: 1rem;
-  max-height: 40px;
-
-
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: solid 1px;
+    background-color: var(--background-color);
+    color: var(--main-color);
+    font-size: 1rem;
+    max-height: 40px;
 }
+
 .nav-large li:hover, .footer-large li:hover {
     font-weight: bold;
 }
@@ -38,15 +38,14 @@
       position: fixed;
       z-index: 1;
 }
+
 .footer-large ul, .nav-large ul {
-
     display: flex;
-
 }
 
 .footer-large li, .nav-large li {
     margin-left: 30px;
-    list-style: none;
+    list-style: none;  
 }
 
 .footer-large__icons, .nav-large__icons {
@@ -54,21 +53,24 @@
     font-size: 1rem;
     display: flex;
     align-items: center;
-
-
 }
+
 .footer-large__icons a, .nav-large__icons a {
     color: var(--main-color);
 }
+
 /**idex page **/
+
 .cta-main {
     margin-left: 25rem;
     margin-top: 15rem;
     font-size: 1rem;
 }
+
 .mood, .mood-small, .welcome-small {
     display: none;
 }
+
 .welcome-large {
     display: flex;
     flex-direction: column;
@@ -89,8 +91,8 @@ video {
     z-index: 0;
     width: 100%;
     margin-top: 10px;
-
 }
+
 .video-text {
     color: var(--main-color);
     box-shadow: inset 900px 900px 0px rgba(255,252, 252, 0.75);
@@ -101,14 +103,15 @@ video {
     line-height: 2em;
     z-index: 1;
     padding: 0px 30px 0px 30px;
-  width: 21%;
- 
+    width: 21%;
 }
+
 h1, h2 {
     font-size: 2rem;
     text-shadow: none;
     line-height: 140%;
 }
+
 h2 {
     font-weight: lighter;
     letter-spacing: 30%;
@@ -117,6 +120,7 @@ h2 {
 .carousel img {
     margin-left: 25rem;
 }
+
 .jackets-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -126,9 +130,9 @@ h2 {
 
 .success-page {
     display: block;
-   text-align: center;
-  margin-left: 24rem;
-  margin-right: 24rem;
+    text-align: center;
+    margin-left: 24rem;
+    margin-right: 24rem;
 }
 
 /**payment details page**/
@@ -149,28 +153,26 @@ h2 {
     border-radius: 5px;
     margin-top: 30px;
 }
+
 .summary {
     border: solid, 1px var(--main-color);
     border-radius: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
-
-    
 }
+
 .summary-item {
     margin-bottom: 80px;
 }
+
 .summary-left, .summary-right {
     display: flex;
     flex-direction: column;
-
 }
+
 .summary-right {
-   
     text-align: right;
 }
-
 
 input {
     border-radius: 5px;
@@ -179,11 +181,10 @@ input {
     width: 130px;
 }
 
-
-
 .card-details, .personal-info {
     margin-top: 100px;
 }
+
 /**jacket spesific**/
 
 .jacket-spesific__page {
@@ -191,8 +192,8 @@ input {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 1fr 1fr;
     padding-left: 30px;
-
 }
+
 .jacket-spesific__page img {
     max-width: 200px;
     border: solid 1px var(--main-color);
@@ -207,11 +208,13 @@ input {
     grid-template-columns: 1fr 1fr;
     gap: 250px;
 }
+
 .cart-img {
     border: solid 1px;
     max-width: 150px;
     margin: 20px;
 }
+
 .your-items {
     display: flex;
     flex-direction: row;
@@ -220,17 +223,13 @@ input {
     font-weight: bold;
     margin-left: 20px;
 }
+
 .your-cart {
   
     text-align: left;
     border: solid 1px;
     border-radius: 5px;
     padding: 20px;
-   
-
-}
-.button {
-    margin: -4;
 }
 
 } 
