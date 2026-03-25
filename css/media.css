@@ -158,10 +158,25 @@ h2 {
 }
 .summary {
     border: solid, 1px var(--main-color);
-    padding: 10px;
     border-radius: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+
+
+    
+}
+.summary-item {
+    margin-bottom: 80px;
+}
+.summary-left {
+    display: flex;
+    flex-direction: column;
+
+}
+.summary-right {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
 }
 
 

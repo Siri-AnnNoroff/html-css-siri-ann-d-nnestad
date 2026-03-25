@@ -16,11 +16,8 @@ input {
 .quick-checkout {
     display: flex;
     flex-direction: column;
-  
-    
-
-
 }
+
 .fa-brands {
     font-size: 1.5rem;
     margin-left: 5px;
@@ -51,4 +48,7 @@ input {
 }
 .small-input {
     max-width: 20%;
+}
+.cta {
+    margin-top: 20px;
 }

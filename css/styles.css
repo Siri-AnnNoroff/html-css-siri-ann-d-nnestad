@@ -18,6 +18,7 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    font-family: "Jaldi-regular";
 }
 
 body {
@@ -25,6 +26,7 @@ body {
   flex-direction: column;
   background-color: #F5F5F5;
   font-family: "Jaldi-regular";
+  color: #093541;
 }
 
 .main-header {
@@ -160,6 +162,7 @@ button {
   font-size: 0.8rem;
  margin: -1px;
   margin-bottom: 20px;
+  color: var(--main-color);
 }
 
  button:focus {
