@@ -1,7 +1,5 @@
 @media (min-width: 800px) {
-    html {
-        font-size: 100%;
-    }
+    
     .logo {
         max-width: 15%;
     }
@@ -28,7 +26,7 @@
   width: 100%;
   border: solid 1px;
   background-color: #fffcfc;
-  color:#093541;
+  color: var(--main-color);
   font-size: 1rem;
   max-height: 40px;
 
@@ -63,16 +61,16 @@
 
 }
 .footer-large__icons a, .nav-large__icons a {
-    color: #093541;
+    color: var(--main-color);
 }
-
+/**idex page **/
 .mood {
     display: none;
 }
 .welcome-large {
     display: flex;
     flex-direction: column;
-    height: 100rem;
+    height: 30rem;
     background: url(../images/home-header.jpg)  no-repeat center top;
     box-shadow: inset 30rem 0px 0px rgba(219, 220, 240, 0.5);
     background-size: 100%;
@@ -99,7 +97,7 @@ video {
 
 }
 .video-text {
-    color: #093541;
+    color: var(--main-color);
     box-shadow: inset 900px 900px 0px rgba(255,252, 252, 0.75);
     font-size: 0.9rem;
     border-radius: 30px;    
