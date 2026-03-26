@@ -11,7 +11,7 @@
 h2 {
     font-size: 1rem;
 }
-input {
+input, label {
     display: block;
     margin: 5px;
 }
@@ -28,7 +28,6 @@ input {
 .cta-payment {
     display: flex;
     flex-direction: column;
-
 }
 
 
@@ -36,14 +35,15 @@ input {
     background-color: var(--main-color);
     color: white;
 }
+
 .paypal {
     background-color: #ffd140;
     color: #003087;
 }
 
 .apple, .google, .paypal {
-    align-items: center;
-    justify-content: center;
+    display: flex;
+
     margin: 5px;
     border-radius: 5px;
     padding: 5px 30px;

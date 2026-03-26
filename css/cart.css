@@ -5,6 +5,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }
 .your-items, .your-cart {
     border: solid 1px;
