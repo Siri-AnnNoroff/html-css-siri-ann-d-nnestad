@@ -123,6 +123,9 @@ button:focus {
   background-color: var(--main-color);
   color: var(--secondary-color);
 }
+.buttons {
+    display: flex;
+}
 
 .under-construction {
   display: flex;

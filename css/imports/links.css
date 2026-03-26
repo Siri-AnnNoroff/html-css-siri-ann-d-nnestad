@@ -5,7 +5,8 @@ a {
 }
 
 .cta-main {
-  margin-left: 3rem;
+  margin-left: 20%;
+  margin-top: 20%;
   position: absolute;
   justify-content: center;
   padding: 5px;
@@ -33,9 +34,7 @@ a {
 
  }
 
-.cta-large {
-    max-width: 190px;
-}
+
 
 .quick-checkout {
   position: absolute;

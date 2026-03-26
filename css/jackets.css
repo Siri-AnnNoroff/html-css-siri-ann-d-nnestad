@@ -1,19 +1,22 @@
-main {
+section {
     display: grid;
     grid-template-columns: 1fr 1fr;  
-    gap: 50px;
+    gap: 15px;
 }
 
 .product-container {
     border: solid 1px #093541;
-    margin-top: 10px; 
     text-align: center;
-    padding: 20px 5px 20px 10px;
+    padding: 20px 10px 20px 10px;
+    margin: 5px;
 }
 
 .product-container img {
     height: 150px;
-    max-width: 150px;
+}
+
+h1 {
+    text-align: center;
 }
 
  h4, h5 {

@@ -2,10 +2,10 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: url(../images/home-header.jpg) no-repeat center top;
+    background: url(../images/home-header.jpg) no-repeat right top;
     background-size: cover;
     height: 20rem;
-    flex: 1;
+
 }
 
 .mood-small {
@@ -21,8 +21,10 @@ h1 {
     font-family: var(--h1-font), Arial, Helvetica, sans-serif;
 }
 
-h2 {
+.welcome-h2 {
     font-family: var(--h2-font), 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;       
+    font-weight: lighter;
+    letter-spacing: 15%;
 }
 
 h3 {
@@ -37,7 +39,7 @@ h1, h2 {
 }
 
 .moved-text {
-    margin-left: 10%;
+    margin-left: 20%;
 }
 
 .mood-large, .welcome-large {
@@ -45,19 +47,11 @@ h1, h2 {
 }
  
 .carousel {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     justify-content: center;
-}
 
-.carousel-text {
-    margin-left: 20px;
 }
-
 .carousel img {
     max-width: 150px;
-}
-
-.jacket-one, .jacket-two {
-    margin: 20px;   
+    margin: 30px;
 }

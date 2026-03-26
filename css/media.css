@@ -1,7 +1,18 @@
+@media (min-width: 600px) {
+
+.jackets-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+}
+
+
 @media (min-width: 800px) {
     
 .logo {
      max-width: 15%;
+     border: none;
 }
     
 .costumer-icons {
@@ -112,30 +123,67 @@ video {
 h1, h2 {
     font-size: 2rem;
     text-shadow: none;
-    line-height: 140%;
-}
-
-h2 {
-    font-weight: lighter;
-    letter-spacing: 30%;
+    line-height: 110%;
 }
 
 .carousel img {
     margin-left: 25rem;
 }
+ /**jackets page**/
 
 .jackets-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-/**success page**/
+/**jacket spesific**/
 
-.success-page {
-    display: block;
-    text-align: center;
-    margin-left: 24rem;
-    margin-right: 24rem;
+.jacket-spesific__page {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-left: 30px;
+}
+
+.jacket-spesific__page img {
+    max-width: 80%;
+    border: solid 1px var(--main-color);
+    padding: 10px;
+    margin: 10px;
+}
+/**cart page**/
+
+.cart-page {
+    display: grid;
+    grid-template-columns: 50% 30%;
+    gap: 20%;
+    padding: 0px 30px ;
+}
+
+.cart-img {
+    border: solid 1px;
+    max-width: 70%;
+
+}
+
+
+.your-items {
+    display: flex;
+    border: solid 1px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.your-cart {
+  
+    text-align: left;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.product-cart {
+    margin-bottom: 100px;
 }
 
 /**payment details page**/
@@ -188,51 +236,14 @@ input {
     margin-top: 100px;
 }
 
-/**jacket spesific**/
+/**success page**/
 
-.jacket-spesific__page {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    padding-left: 30px;
+.success-page {
+    display: block;
+    text-align: center;
+    margin-left: 24rem;
+    margin-right: 24rem;
 }
 
-.jacket-spesific__page img {
-    max-width: 200px;
-    border: solid 1px var(--main-color);
-    padding: 10px;
-    margin: 10px;
-}
-
-/**cart page**/
-
-.cart-page {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 250px;
-}
-
-.cart-img {
-    border: solid 1px;
-    max-width: 150px;
-    margin: 20px;
-}
-
-.your-items {
-    display: flex;
-    flex-direction: row;
-    border: solid 1px;
-    border-radius: 5px;
-    font-weight: bold;
-    margin-left: 20px;
-}
-
-.your-cart {
-  
-    text-align: left;
-    border: solid 1px;
-    border-radius: 5px;
-    padding: 20px;
-}
 
 } 

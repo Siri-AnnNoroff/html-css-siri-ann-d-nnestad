@@ -2,11 +2,14 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
-img {
+.spesific-image {
+
     max-width: 150px;
+    border: solid 1px;
+    padding: 30px;
 }
 
 .quantity {
@@ -16,3 +19,4 @@ img {
 .cta-jacket {
     margin-left: 12rem;
 }
+

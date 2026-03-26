@@ -8,6 +8,10 @@ main {
 }
 .your-items, .your-cart {
     border: solid 1px;
-    padding: 20px;
+    padding: 40px;
+    margin-bottom: 20px;
 }
 
+.fa-trash-can {
+    margin-left: 10px;
+}
