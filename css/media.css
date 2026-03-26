@@ -7,19 +7,14 @@
 
 }
 
-
 @media (min-width: 800px) {
     
 .logo {
      max-width: 15%;
      border: none;
-}
-    
-.costumer-icons {
-     display: none;
-}
+} 
 
-.hamburger-icon, .footer-small {
+.hamburger-icon, .footer-small, .costumer-icons {
     display: none;
 }
 
@@ -38,8 +33,7 @@
     color: var(--main-color);
     font-size: 1rem;
     max-height: 40px;
-    box-sizing: border-box;
-  
+    box-sizing: border-box; 
 }
 
 .nav-large li:hover, .footer-large li:hover {
@@ -72,9 +66,6 @@
     color: var(--main-color);
 }
 
-.cta {
-    padding: 10px 20px;
-}
 /**index page **/
 
 .cta-main {
@@ -127,12 +118,12 @@ video {
 .welcome-h2 {
     font-size: 1.3rem;
 }
+
 h1, h2 {
     font-size: 2rem;
     text-shadow: none;
     line-height: 110%;
 }
-
 
  /**jackets page**/
 
@@ -156,6 +147,7 @@ h1, h2 {
     padding: 10px;
     margin: 10px;
 }
+
 /**cart page**/
 
 .cart-page {
@@ -168,9 +160,7 @@ h1, h2 {
 .cart-img {
     border: solid 1px;
     max-width: 60%;
-
 }
-
 
 .your-items {
     display: flex;
@@ -184,6 +174,7 @@ h1, h2 {
     text-align: left;
     border: solid 1px;
     border-radius: 5px;
+    padding: 20px;
 }
 
 .product-cart {
@@ -224,21 +215,11 @@ h1, h2 {
 .summary {
     border: solid, 1px var(--main-color);
     border-radius: 5px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    padding: 0px;
 }
 
-.summary-item {
-    margin-bottom: 80px;
-}
-
-.summary-left, .summary-right {
-    display: flex;
-    flex-direction: column;
-}
-
-.summary-right {
-    text-align: right;
+th, td {
+    padding: 20px 30px;
 }
 
 input {
@@ -257,9 +238,7 @@ input {
 .success-page {
     display: block;
     text-align: center;
-    margin-left: 24rem;
-    margin-right: 24rem;
+    margin: 0% 30%;
 }
-
 
 } 

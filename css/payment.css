@@ -3,18 +3,22 @@
     flex-direction: column;
     align-items: center;
 }
+
 .quick-checkout {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 h2 {
     font-size: 1rem;
 }
+
 input, label {
     display: block;
     margin: 5px;
 }
+
 .required {
     color: rgb(211, 39, 39);
     font-weight: bold;
@@ -23,13 +27,12 @@ input, label {
 .fa-brands {
     font-size: 1.5rem;
     margin-left: 5px;
-
 }
+
 .cta-payment {
     display: flex;
     flex-direction: column;
 }
-
 
 .apple, .google {
     background-color: var(--main-color);
@@ -42,23 +45,23 @@ input, label {
 }
 
 .apple, .google, .paypal {
-    display: flex;
-
     margin: 5px;
     border-radius: 5px;
     padding: 5px 30px;
     text-align: center;
     max-width: 150px;
-
 }
+
 .summary {
     border: solid 1px var(--main-color);
-    padding: 40px;
     text-align: left;
+    padding: 30px;
 }
+
 .small-input {
     max-width: 20%;
 }
+
 .cta {
     margin-top: 20px;
 }
