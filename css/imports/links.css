@@ -36,12 +36,6 @@ a {
 
 
 
-.quick-checkout {
-  position: absolute;
-  top: 12rem;
-  margin-left: 30px;
-
-}
 .cta-payment {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;  
