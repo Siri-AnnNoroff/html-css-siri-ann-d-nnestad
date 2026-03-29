@@ -82,7 +82,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 23rem;
+    height: 20rem;
     background: url(../images/home-header.jpg)  no-repeat center top;
     box-shadow: inset 25rem 0px 0px rgba(219, 220, 240, 0.5);
     background-size: 100%;
@@ -152,9 +152,7 @@ h1, h2 {
 
 .cart-page {
     display: grid;
-    grid-template-columns: 50% 30%;
-    gap: 0% 20%;
-    padding: 0px 30px;
+    grid-template-columns: 3fr 2fr;
 }
 
 .cart-img {
@@ -164,17 +162,26 @@ h1, h2 {
 
 .your-items {
     display: flex;
-    gap: 80px;
+    flex-direction: row;
     border: solid 1px;
     border-radius: 5px;
+    padding: 10px;
     font-weight: bold;
+    width: 60%;
+}
+.cta-cart {
+    margin-left: -30%;
+}
+
+.items-text {
+    margin-left: 20px;
 }
 
 .your-cart {
     text-align: left;
     border: solid 1px;
     border-radius: 5px;
-    padding: 20px;
+   padding: 2%;
 }
 
 .product-cart {
@@ -197,6 +204,7 @@ h1, h2 {
 .payment-details__page{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
     font-size: 12px;
     column-gap: 20px;
     margin-top: 40px;
@@ -215,11 +223,6 @@ h1, h2 {
 .summary {
     border: solid, 1px var(--main-color);
     border-radius: 5px;
-    padding: 0px;
-}
-
-th, td {
-    padding: 20px 30px;
 }
 
 input {
@@ -242,3 +245,19 @@ input {
 }
 
 } 
+
+@media (min-width: 1100px) {
+
+.welcome-large {
+    box-shadow: inset 30rem 0px 0px rgba(219, 220, 240, 0.5);
+    
+}
+.cta-main {
+    margin-left: 25rem;
+    margin-top: 13rem;
+}
+
+.moved-text {
+    margin-left: 5%;
+}
+}

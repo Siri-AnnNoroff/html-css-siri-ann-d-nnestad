@@ -17,6 +17,8 @@ main {
 }
 
 .cta-jacket {
+      display: flex;
+      flex-direction: column;
     margin-left: 12rem;
 }
 

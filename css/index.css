@@ -9,9 +9,9 @@
 }
 
 .attribution {
- position: absolute;
+    position: absolute;
     color: var(--secondary-color);
-    box-shadow: inset 400px 0px 0px rgba(9,53, 65, 1);
+    background-color: var(--main-color);
     font-size: 12px;
     padding: 0px 5px 0px 10px;
     bottom: 0;
