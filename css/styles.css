@@ -7,9 +7,9 @@ src: url("/fonts/Jaldi-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: Notable-regular;
-  src: url("/fonts/Notable-Regular.ttf") format("truetype");
-}
+  font-family: "notable-regular";
+  src: url("/fonts/notable-regular.ttf") format("truetype");
+} 
 
 @font-face {
   font-family: "OrelegaOne-regular";
