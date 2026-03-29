@@ -1,2 +1,1 @@
-# testCA
-Test of my CA
+Course assignment for HTML/CSS Noroff
