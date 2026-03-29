@@ -72,6 +72,7 @@
     margin-left: 20rem;
     margin-top: 11rem;
     font-size: 1rem;
+    z-index: 1;
 }
 
 .mood, .mood-small, .welcome-small {
@@ -79,15 +80,19 @@
 }
 
 .welcome-large {
+   
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 20rem;
-    background: url(../images/home-header.jpg)  no-repeat center top;
-    box-shadow: inset 25rem 0px 0px rgba(219, 220, 240, 0.5);
-    background-size: 100%;
+       
 }
 
+.welcome-large__text {
+    position: absolute;
+    width: 700px;
+    box-shadow: inset 25rem 0px 0px rgba(219, 220, 240, 0.5);
+    height: 100%;
+}
 .mood-large {
     display: flex;
     position: relative;
@@ -115,12 +120,8 @@ video {
     width: 21%;
 }
 
-.welcome-h2 {
-    font-size: 1.3rem;
-}
-
-h1, h2 {
-    font-size: 2rem;
+.welcome-large__text h1, .welcome-large__text h2 {
+    font-size: 1.8rem;
     text-shadow: none;
     line-height: 110%;
 }
@@ -154,6 +155,9 @@ h1, h2 {
     display: grid;
     grid-template-columns: 3fr 2fr;
 }
+.cart-page h2 {
+    text-align: center;
+}
 
 .cart-img {
     border: solid 1px;
@@ -178,10 +182,13 @@ h1, h2 {
 }
 
 .your-cart {
-    text-align: left;
+    justify-self: flex-end;
+    justify-content: space-between;
     border: solid 1px;
     border-radius: 5px;
-   padding: 2%;
+    padding: 2%;
+    width: 55%;
+    height: 100%;
 }
 
 .product-cart {
@@ -235,6 +242,10 @@ input {
 .card-details, .personal-info {
     margin-top: 100px;
 }
+ .personal-info {
+    display: grid;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+ }
 
 /**success page**/
 
@@ -248,16 +259,24 @@ input {
 
 @media (min-width: 1100px) {
 
-.welcome-large {
-    box-shadow: inset 30rem 0px 0px rgba(219, 220, 240, 0.5);
-    
+.welcome-large__text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    box-shadow: inset 32rem 0px 0px rgba(219, 220, 240, 0.5);
 }
+
 .cta-main {
     margin-left: 25rem;
     margin-top: 13rem;
 }
 
-.moved-text {
-    margin-left: 5%;
+h1, h2 {
+    font-size: 2rem;
 }
+
+.moved-text {
+    margin-left: 15%;
+}
+
 }
