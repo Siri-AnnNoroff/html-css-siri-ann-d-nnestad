@@ -126,6 +126,9 @@ video {
     line-height: 110%;
 }
 
+.welcome-large__text {
+    font-family: var(--h1-font);
+}
  /**jackets page**/
 
 .jackets-grid {
