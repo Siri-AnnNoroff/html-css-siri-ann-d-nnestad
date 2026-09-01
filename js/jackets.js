@@ -36,12 +36,14 @@ function displayJackets(jackets) {
     const price = document.createElement("h3");
     price.textContent = jacket.price;
 
-    const sizeBtns = createSizeBtns(jacket);
+    const sizeBtns = createSizeBtns(jacket); //fetched from product-elements.js
+    const cartBtn = createAddToCart(jacket); //fetched from product-elements.js
 
     card.appendChild(img);
     card.appendChild(title);
     card.appendChild(price);
     card.appendChild(sizeBtns);
+    card.appendChild(cartBtn);
 
     jacketsGrid.appendChild(card);
   });

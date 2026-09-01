@@ -12,3 +12,13 @@ function createSizeBtns(jacket) {
 
   return sizeContainer;
 }
+
+function createAddToCart() {
+  const addToCartContainer = document.createElement("div");
+  const addToCartBtn = document.createElement("button");
+  addToCartBtn.textContent = "Add to cart";
+  addToCartBtn.className = "cta";
+  addToCartContainer.appendChild(addToCartBtn);
+
+  return addToCartContainer;
+}
