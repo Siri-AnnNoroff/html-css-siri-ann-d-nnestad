@@ -19,7 +19,9 @@ h1 {
     text-align: center;
 }
 
- h2, h3 {
+
+
+ h2, h3, p {
     text-align: left;
     line-height: 10%;
  }
