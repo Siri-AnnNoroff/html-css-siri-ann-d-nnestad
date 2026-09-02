@@ -10,12 +10,16 @@ const jacketsGrid = document.getElementById("jackets-grid");
 async function fetchJackets() {
   try {
     const response = await fetch(API_URL);
+    if (!response.ok) {
+      throw new Error(`HTTP error! ${response.status}`);
+    }
     const result = await response.json();
     const jackets = result.data;
 
     displayJackets(jackets);
   } catch (error) {
     console.error("failed to fetch", error);
+    jacketsGrid.textContent = "Loading error, please refresh.";
   }
 }
 
@@ -47,6 +51,10 @@ function displayJackets(jackets) {
 
     jacketsGrid.appendChild(card);
   });
+}
+
+function jacketFilters() {
+  const params = new URLSearchParams(window.location.search);
 }
 
 fetchJackets();

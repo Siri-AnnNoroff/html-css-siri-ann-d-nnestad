@@ -15,8 +15,6 @@
       <a href="index.html"><img src="images/RainyDays_Logo.png" class="logo" alt="Rainy Days logo"/></a>
     </header>
     <header class="second-header">
-      <input type="checkbox" id="menu-checkbox" />
-      <label for="menu-checkbox" class="hamburger-icon"><i class="fas fa-bars"></i></label>
       <nav class="hamburger-nav">
           <button class="close">X</button>
           <li><a href="index.html">Home</a></li>
@@ -46,7 +44,7 @@
       </div>  
       <div class="nav-large__icons">
         <a href="under-construction.html"><i class="fa-regular fa-user" aria-label="log in"></i></a>
-        <a href="cart.html"><i class="fa-solid fa-cart-shopping" aria-label="cart"></i></a>
+        <a href="cart.html"><i id="cart-button" class="fa-solid fa-cart-shopping" aria-label="cart"></i></a>
       </div>
           </ul>
         </nav>
@@ -86,6 +84,7 @@
           </ul>
         </nav>
     </footer>
+    <script src="js/cart.js"></script>
     <script src="js/product-elements.js"></script>
     <script src="js/jackets.js" type="module"></script>
   </body>

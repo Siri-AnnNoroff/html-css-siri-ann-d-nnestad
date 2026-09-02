@@ -57,14 +57,6 @@ body {
   float: right;
 }
 
-.hamburger-nav, #menu-checkbox {
-    display: none;
-}
-
-#menu-checkbox:checked ~ .hamburger-nav {
-    display: block;
-}
-
 .hamburger-nav {
   position: fixed;
   background: var(--main-color);
