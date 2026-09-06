@@ -1,5 +1,7 @@
 "use strict";
 
+//main cart logic
+
 let cart = [];
 
 function addToCart(product) {
@@ -21,3 +23,5 @@ function loadCart() {
 }
 
 loadCart();
+
+//overlay cart

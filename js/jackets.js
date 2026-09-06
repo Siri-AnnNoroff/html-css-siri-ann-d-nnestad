@@ -5,6 +5,8 @@ const API_URL = "https://v2.api.noroff.dev/rainy-days";
 
 const jacketsGrid = document.getElementById("jackets-grid");
 
+let allJackets = [];
+
 //functions
 
 async function fetchJackets() {
@@ -16,11 +18,23 @@ async function fetchJackets() {
     const result = await response.json();
     const jackets = result.data;
 
-    displayJackets(jackets);
+    const filtered = filterGender(jackets);
+    displayJackets(filtered);
   } catch (error) {
     console.error("failed to fetch", error);
     jacketsGrid.textContent = "Loading error, please refresh.";
   }
+}
+
+function filterGender(jackets) {
+  const location = new URLSearchParams(window.location.search);
+  const gender = location.get("gender");
+  if (!gender) {
+    return jackets;
+  }
+  return jackets.filter(
+    (jacket) => jacket.gender.toLowerCase() === gender.toLowerCase(),
+  );
 }
 
 function displayJackets(jackets) {
